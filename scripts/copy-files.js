@@ -119,8 +119,8 @@ async function addLicense(packageData) {
     [
       "index.js",
       "es/index.js",
-      "./umd/chakra-ui.min.js",
-      "./umd/chakra-ui.js",
+      "./umd/adapt-ui.min.js",
+      "./umd/adapt-ui.js",
     ].map(async file => {
       try {
         await prepend(path.resolve(buildPath, file), license);
@@ -141,7 +141,7 @@ async function run() {
 
     await Promise.all(
       [
-        // use enhanced readme from workspace root for `chakra-ui`
+        // use enhanced readme from workspace root for `adapt-ui`
         "./README.md",
       ].map(file => includeFileInBuild(file)),
     );
