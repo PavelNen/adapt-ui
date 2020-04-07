@@ -1,6 +1,6 @@
 {
   "name": "@adapt-ui/core",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Responsive and accessible React UI components built with React and Emotion",
   "main": "dist/index.js",
   "module": "dist/es/index.js",
@@ -57,5 +57,5 @@
     "emotion",
     "library"
   ],
-  "gitHead": "a50ff288d31d31466d445e89719a70aa394ff70a"
+  "gitHead": "110fb1fb7b3f469996e0846bdaa6c8811964418b"
 }
