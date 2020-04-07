@@ -1,0 +1,36 @@
+node_modules/
+lerna-debug.log
+npm-debug.log
+packages/*/lib
+packages/*/.next
+storybook-static
+packages/*/coverage
+packages/*/dist
+packages/*/node_modules
+npm-debug.log*
+packages/*/.env
+*.log
+yarn.lock
+yarn-error.log
+packages/*/.rpt2_cache
+packages/*/.rts2_cache*
+.next
+# Local Netlify folder
+.netlify
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# Generated files
+.idea/**/contentModel.xml
+
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
